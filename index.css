@@ -1,6 +1,10 @@
-.content {
-  margin: 90px;
+body {
   background-color: #e8e9e8;
+}
+
+.container {
+  margin: 130px;
+  background-color: white;
   min-height: 900px;
 }
 
@@ -28,4 +32,19 @@
 .discription {
   font-size: 20px;
   padding-bottom: 20px;
+}
+
+.content {
+  padding-left: 40px;
+}
+
+.content-span-tittle {
+  margin-top: 30px;
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-me-dec {
+  padding-bottom: 30px;
 }
