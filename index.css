@@ -5,17 +5,17 @@ body {
 .container {
   margin: 130px;
   background-color: white;
-  min-height: 900px;
+  min-height: 1000px;
 }
 
-.profile {
+.user {
   text-align: center;
   align-items: center;
   position: relative;
   border-bottom: gray 1px double;
 }
 
-.profile-img {
+.user-avatar {
   border-radius: 50%;
   position: absolute;
   left: calc(50% - 90px);
@@ -36,10 +36,12 @@ body {
 
 .content {
   padding-left: 40px;
+  padding-right: 40px;
 }
 
 .content-span-tittle {
   margin-top: 30px;
+  margin-bottom: 30px;
   color: red;
   font-size: 28px;
   font-weight: bold;
@@ -47,4 +49,36 @@ body {
 
 .about-me-dec {
   padding-bottom: 30px;
+}
+
+.educations {
+  margin-top: 30px;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.education-year {
+  margin-right: 50px;
+}
+
+.education-dec-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding-left: 20px;
+}
+
+.education-dec {
+  padding-bottom: 20px;
+  margin-right: 0;
+}
+
+.educations-body figure {
+  margin-right: 0;
 }
