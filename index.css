@@ -2,20 +2,30 @@
   margin: 90px;
   background-color: #e8e9e8;
   min-height: 900px;
-  position: relative;
 }
 
 .profile {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   align-items: center;
-  position: absolute;
-  top: -90px;
+  position: relative;
+  border-bottom: gray 1px double;
 }
 
 .profile-img {
   border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 90px);
+  top: -90px;
   height: 180px;
   width: 180px;
+}
+
+.hello {
+  padding-top: 120px;
+  font-size: 30px;
+  top: 90px;
+}
+.discription {
+  font-size: 20px;
+  padding-bottom: 20px;
 }
