@@ -1,6 +1,6 @@
 import "./style/index.scss";
-import userApi from "./api/userapi/user";
-import educationApi from "./api/userapi/education";
+import userApi from "./api/user";
+import educationApi from "./api/education";
 import * as defaultrAvatar from "./style/profile.jpeg";
 
 const userAvatarEleMent = document.getElementsByClassName("user-avatar")[0];
