@@ -1,0 +1,21 @@
+.content {
+  margin: 90px;
+  background-color: #e8e9e8;
+  min-height: 900px;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: -90px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
