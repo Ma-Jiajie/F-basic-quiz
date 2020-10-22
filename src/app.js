@@ -14,6 +14,7 @@ const userId = document.URL.split("/")[4];
 
 // TODO GTB-3: + 使用了es6语法，如模版字符串等
 userApi.getUserById(userId).then((user) => {
+  // TODO GTB-3: - 可以使用参数的结构解构赋值
   userAvatarEleMent.src = user.avatar ? user.avatar : defaultrAvatar;
   userDiscription.innerText = `MY NAME IS ${user.name ? user.name : "Jiajie"} ${
     user.age ? user.age : 20
